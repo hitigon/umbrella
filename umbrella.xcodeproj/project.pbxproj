@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		710FCA8E19E5012C00DB1D1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 710FCA8D19E5012C00DB1D1D /* main.m */; };
 		710FCA9119E5012C00DB1D1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 710FCA9019E5012C00DB1D1D /* AppDelegate.m */; };
-		710FCA9419E5012C00DB1D1D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710FCA9319E5012C00DB1D1D /* FirstViewController.m */; };
 		710FCA9719E5012C00DB1D1D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710FCA9619E5012C00DB1D1D /* SecondViewController.m */; };
 		710FCA9A19E5012C00DB1D1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710FCA9819E5012C00DB1D1D /* Main.storyboard */; };
 		710FCA9C19E5012C00DB1D1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710FCA9B19E5012C00DB1D1D /* Images.xcassets */; };
 		710FCA9F19E5012C00DB1D1D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710FCA9D19E5012C00DB1D1D /* LaunchScreen.xib */; };
 		710FCAAB19E5012C00DB1D1D /* umbrellaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 710FCAAA19E5012C00DB1D1D /* umbrellaTests.m */; };
+		71E8D63E19E517C700E19BB5 /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E8D63C19E517C700E19BB5 /* ChatListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +33,6 @@
 		710FCA8D19E5012C00DB1D1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		710FCA8F19E5012C00DB1D1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		710FCA9019E5012C00DB1D1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		710FCA9219E5012C00DB1D1D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		710FCA9319E5012C00DB1D1D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		710FCA9519E5012C00DB1D1D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		710FCA9619E5012C00DB1D1D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		710FCA9919E5012C00DB1D1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,6 +41,8 @@
 		710FCAA419E5012C00DB1D1D /* umbrellaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = umbrellaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		710FCAA919E5012C00DB1D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		710FCAAA19E5012C00DB1D1D /* umbrellaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = umbrellaTests.m; sourceTree = "<group>"; };
+		71E8D63C19E517C700E19BB5 /* ChatListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatListViewController.m; sourceTree = "<group>"; };
+		71E8D63D19E517C700E19BB5 /* ChatListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatListViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 			children = (
 				710FCA8F19E5012C00DB1D1D /* AppDelegate.h */,
 				710FCA9019E5012C00DB1D1D /* AppDelegate.m */,
-				710FCA9219E5012C00DB1D1D /* FirstViewController.h */,
-				710FCA9319E5012C00DB1D1D /* FirstViewController.m */,
+				71E8D63D19E517C700E19BB5 /* ChatListViewController.h */,
+				71E8D63C19E517C700E19BB5 /* ChatListViewController.m */,
 				710FCA9519E5012C00DB1D1D /* SecondViewController.h */,
 				710FCA9619E5012C00DB1D1D /* SecondViewController.m */,
 				710FCA9819E5012C00DB1D1D /* Main.storyboard */,
@@ -173,6 +173,7 @@
 				TargetAttributes = {
 					710FCA8719E5012C00DB1D1D = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = Z8A5424JWW;
 					};
 					710FCAA319E5012C00DB1D1D = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -226,8 +227,8 @@
 			files = (
 				710FCA9719E5012C00DB1D1D /* SecondViewController.m in Sources */,
 				710FCA9119E5012C00DB1D1D /* AppDelegate.m in Sources */,
-				710FCA9419E5012C00DB1D1D /* FirstViewController.m in Sources */,
 				710FCA8E19E5012C00DB1D1D /* main.m in Sources */,
+				71E8D63E19E517C700E19BB5 /* ChatListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +352,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = umbrella/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = umbrella/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,6 +423,7 @@
 				710FCAB019E5012C00DB1D1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		710FCAB119E5012C00DB1D1D /* Build configuration list for PBXNativeTarget "umbrellaTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +432,7 @@
 				710FCAB319E5012C00DB1D1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
