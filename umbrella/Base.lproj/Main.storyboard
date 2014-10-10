@@ -9,6 +9,7 @@
             <objects>
                 <tableViewController id="Mvc-4v-YqK" customClass="ChatListViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="eE2-Ej-URR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <connections>
@@ -22,7 +23,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l4f-AW-5eA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1544.25" y="-245.25"/>
+            <point key="canvasLocation" x="2303.25" y="-245.25"/>
         </scene>
         <!--Nearby-->
         <scene sceneID="wg7-f3-ORb">
@@ -100,7 +101,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YLv-ke-VAc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="785.25" y="-245.25"/>
+            <point key="canvasLocation" x="1544.25" y="-245.25"/>
         </scene>
     </scenes>
     <resources>

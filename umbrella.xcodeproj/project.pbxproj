@@ -14,6 +14,7 @@
 		710FCA9C19E5012C00DB1D1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710FCA9B19E5012C00DB1D1D /* Images.xcassets */; };
 		710FCA9F19E5012C00DB1D1D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710FCA9D19E5012C00DB1D1D /* LaunchScreen.xib */; };
 		710FCAAB19E5012C00DB1D1D /* umbrellaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 710FCAAA19E5012C00DB1D1D /* umbrellaTests.m */; };
+		71BFA35D19E65F630087BCA8 /* SigninViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BFA35C19E65F630087BCA8 /* SigninViewController.m */; };
 		71E8D63E19E517C700E19BB5 /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E8D63C19E517C700E19BB5 /* ChatListViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,8 @@
 		710FCAA419E5012C00DB1D1D /* umbrellaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = umbrellaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		710FCAA919E5012C00DB1D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		710FCAAA19E5012C00DB1D1D /* umbrellaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = umbrellaTests.m; sourceTree = "<group>"; };
+		71BFA35B19E65F630087BCA8 /* SigninViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigninViewController.h; sourceTree = "<group>"; };
+		71BFA35C19E65F630087BCA8 /* SigninViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigninViewController.m; sourceTree = "<group>"; };
 		71E8D63C19E517C700E19BB5 /* ChatListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatListViewController.m; sourceTree = "<group>"; };
 		71E8D63D19E517C700E19BB5 /* ChatListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatListViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +94,8 @@
 				710FCA9519E5012C00DB1D1D /* SecondViewController.h */,
 				710FCA9619E5012C00DB1D1D /* SecondViewController.m */,
 				710FCA9819E5012C00DB1D1D /* Main.storyboard */,
+				71BFA35B19E65F630087BCA8 /* SigninViewController.h */,
+				71BFA35C19E65F630087BCA8 /* SigninViewController.m */,
 				710FCA9B19E5012C00DB1D1D /* Images.xcassets */,
 				710FCA9D19E5012C00DB1D1D /* LaunchScreen.xib */,
 				710FCA8B19E5012C00DB1D1D /* Supporting Files */,
@@ -228,6 +233,7 @@
 				710FCA9719E5012C00DB1D1D /* SecondViewController.m in Sources */,
 				710FCA9119E5012C00DB1D1D /* AppDelegate.m in Sources */,
 				710FCA8E19E5012C00DB1D1D /* main.m in Sources */,
+				71BFA35D19E65F630087BCA8 /* SigninViewController.m in Sources */,
 				71E8D63E19E517C700E19BB5 /* ChatListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
