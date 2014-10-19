@@ -7,6 +7,7 @@
 //
 
 #import "SigninViewController.h"
+#import "Rooms.h"
 
 @interface SigninViewController ()
 
@@ -19,7 +20,6 @@
     
     AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     self.managedObjectContext = appDelegate.managedObjectContext;
-    
 
 }
 
@@ -39,6 +39,13 @@
     User *userModel = (User *)[NSEntityDescription insertNewObjectForEntityForName:@"User" inManagedObjectContext:self.managedObjectContext];
     [userModel setUsername:name];
     
+    
+    for (int i = 0; i < 5; i++) {
+        Rooms *roomsModel = (Rooms *)[NSEntityDescription insertNewObjectForEntityForName:@"Rooms" inManagedObjectContext:self.managedObjectContext];
+        [roomsModel setName:[NSString stringWithFormat:@"Chatting Room %d", i]];
+        [roomsModel setAdded_time: [NSDate date]];
+    }
+
     if (![self.managedObjectContext save:&error]) {
         NSLog(@"Core Data Save Error [User]: %@", error);
     }

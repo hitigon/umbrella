@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#import "Rooms.h"
 
 @interface ChatListViewController : UITableViewController <UITableViewDataSource, UITableViewDelegate>{
 }
 
-//@property(nonatomic, strong) IBOutlet UITableView *chatListView;
+@property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
+@property (nonatomic, retain) NSArray *rooms;
 
+- (NSArray *)readCoreData: (NSString *)entityName;
 @end
 

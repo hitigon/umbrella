@@ -16,6 +16,10 @@
 		710FCAAB19E5012C00DB1D1D /* umbrellaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 710FCAAA19E5012C00DB1D1D /* umbrellaTests.m */; };
 		7111DC4219EC946900BF3117 /* umbrella.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7111DC4019EC946900BF3117 /* umbrella.xcdatamodeld */; };
 		7111DC4519EC991200BF3117 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7111DC4319EC952700BF3117 /* CoreData.framework */; };
+		7128AACE19F3602600028DCC /* Connections.m in Sources */ = {isa = PBXBuildFile; fileRef = 7128AACD19F3602600028DCC /* Connections.m */; };
+		7128AAD119F3602700028DCC /* RoomUsers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7128AAD019F3602700028DCC /* RoomUsers.m */; };
+		7128AAD419F3602700028DCC /* Conversations.m in Sources */ = {isa = PBXBuildFile; fileRef = 7128AAD319F3602700028DCC /* Conversations.m */; };
+		7128AAD719F3602700028DCC /* Rooms.m in Sources */ = {isa = PBXBuildFile; fileRef = 7128AAD619F3602700028DCC /* Rooms.m */; };
 		71BFA35D19E65F630087BCA8 /* SigninViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BFA35C19E65F630087BCA8 /* SigninViewController.m */; };
 		71E8D63E19E517C700E19BB5 /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E8D63C19E517C700E19BB5 /* ChatListViewController.m */; };
 		71F686D519ECA09E009C5F52 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F686D419ECA09E009C5F52 /* User.m */; };
@@ -47,6 +51,14 @@
 		710FCAAA19E5012C00DB1D1D /* umbrellaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = umbrellaTests.m; sourceTree = "<group>"; };
 		7111DC4119EC946900BF3117 /* umbrella.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = umbrella.xcdatamodel; sourceTree = "<group>"; };
 		7111DC4319EC952700BF3117 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7128AACC19F3602600028DCC /* Connections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connections.h; sourceTree = "<group>"; };
+		7128AACD19F3602600028DCC /* Connections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connections.m; sourceTree = "<group>"; };
+		7128AACF19F3602700028DCC /* RoomUsers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomUsers.h; sourceTree = "<group>"; };
+		7128AAD019F3602700028DCC /* RoomUsers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomUsers.m; sourceTree = "<group>"; };
+		7128AAD219F3602700028DCC /* Conversations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conversations.h; sourceTree = "<group>"; };
+		7128AAD319F3602700028DCC /* Conversations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conversations.m; sourceTree = "<group>"; };
+		7128AAD519F3602700028DCC /* Rooms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rooms.h; sourceTree = "<group>"; };
+		7128AAD619F3602700028DCC /* Rooms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rooms.m; sourceTree = "<group>"; };
 		71BFA35B19E65F630087BCA8 /* SigninViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigninViewController.h; sourceTree = "<group>"; };
 		71BFA35C19E65F630087BCA8 /* SigninViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SigninViewController.m; sourceTree = "<group>"; };
 		71E8D63C19E517C700E19BB5 /* ChatListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatListViewController.m; sourceTree = "<group>"; };
@@ -97,6 +109,14 @@
 			isa = PBXGroup;
 			children = (
 				7111DC4019EC946900BF3117 /* umbrella.xcdatamodeld */,
+				7128AAD519F3602700028DCC /* Rooms.h */,
+				7128AAD619F3602700028DCC /* Rooms.m */,
+				7128AAD219F3602700028DCC /* Conversations.h */,
+				7128AAD319F3602700028DCC /* Conversations.m */,
+				7128AACF19F3602700028DCC /* RoomUsers.h */,
+				7128AAD019F3602700028DCC /* RoomUsers.m */,
+				7128AACC19F3602600028DCC /* Connections.h */,
+				7128AACD19F3602600028DCC /* Connections.m */,
 				710FCA9819E5012C00DB1D1D /* Main.storyboard */,
 				710FCA8F19E5012C00DB1D1D /* AppDelegate.h */,
 				710FCA9019E5012C00DB1D1D /* AppDelegate.m */,
@@ -253,9 +273,13 @@
 				710FCA9719E5012C00DB1D1D /* SecondViewController.m in Sources */,
 				71F686D519ECA09E009C5F52 /* User.m in Sources */,
 				710FCA9119E5012C00DB1D1D /* AppDelegate.m in Sources */,
+				7128AACE19F3602600028DCC /* Connections.m in Sources */,
+				7128AAD719F3602700028DCC /* Rooms.m in Sources */,
 				710FCA8E19E5012C00DB1D1D /* main.m in Sources */,
 				7111DC4219EC946900BF3117 /* umbrella.xcdatamodeld in Sources */,
+				7128AAD119F3602700028DCC /* RoomUsers.m in Sources */,
 				71BFA35D19E65F630087BCA8 /* SigninViewController.m in Sources */,
+				7128AAD419F3602700028DCC /* Conversations.m in Sources */,
 				71E8D63E19E517C700E19BB5 /* ChatListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
